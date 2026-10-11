@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071c43">
+<meta name="description" content="Portal pelaporan dan pemantauan pembelajaran jarak jauh SMA Negeri 4 Lubuklinggau.">
+<title>SMANPA PJJ REPORT | SMA Negeri 4 Lubuklinggau</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site-shell">
+<header class="site-header" aria-label="Identitas sekolah">
+  <a class="school-brand" href="index.html" aria-label="Beranda SMANPA PJJ REPORT">
+   <img src="assets/logo-smanpa.png" alt="Logo resmi SMA Negeri 4 Lubuklinggau" width="58" height="58">
+   <span><strong>SMA NEGERI 4 LUBUKLINGGAU</strong><small>SMANPA PRIMA <i></i> Prestasi · Integritas · Iman · Mandiri</small></span>
+  </a>
+  <span class="header-caption"><span class="tiny-dot"></span> DIGITAL LEARNING SYSTEM <span class="year">/ 2026</span></span>
+</header>
+<main class="hero-grid">
+ <section class="hero-panel" aria-label="Informasi aplikasi">
+  <div class="hero-photo" role="img" aria-label="Foto gedung asli SMA Negeri 4 Lubuklinggau"></div>
+  <div class="hero-overlay"></div><div class="hero-glow"></div>
+  <div class="hero-content">
+   <div class="eyebrow"><span class="sparkle">✦</span> SMART EDUCATION ECOSYSTEM <span class="line"></span> SMANPA 2026</div>
+   <p class="hero-kicker">PORTAL MONITORING PEMBELAJARAN</p>
+   <h1><span>SMANPA</span><span class="headline-light">PJJ <em>REPORT.</em></span></h1>
+   <p class="hero-subtitle">Satu Klik Lapor,<br><b>Semua Pembelajaran Terpantau.</b></p>
+   <div class="hero-divider"></div>
+   <div class="features"><span><span class="bullet"></span>Pelaporan Praktis</span><span><span class="bullet"></span>Monitoring Real-time</span><span><span class="bullet"></span>Arsip Berkelanjutan</span></div>
+  </div>
+  <div class="image-caption">SMANPA <span>—</span> FUTURE READY SCHOOL</div>
+ </section>
+ <section class="login-panel" aria-labelledby="login-title">
+  <div class="login-top"><span class="welcome-label">WELCOME BACK <span>✳</span></span><span class="login-tag">TEACHER PORTAL</span></div>
+  <div class="login-box">
+   <div class="login-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15" r="1"/></svg></div>
+   <div class="overline">AKSES PORTAL PJJ</div>
+   <h2 id="login-title">Selamat datang<span class="gold-period">.</span></h2>
+   <p class="login-description">Masuk menggunakan akun guru atau admin untuk mengelola laporan pembelajaran jarak jauh.</p>
+   <form id="login-form" novalidate>
+    <label for="username">Username</label>
+    <div class="field"><span class="field-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-5 3-7 8-7s8 2 8 7"/></svg></span><input id="username" name="username" autocomplete="username" spellcheck="false" placeholder="Masukkan username" required></div>
+    <div class="label-row"><label for="password">Password</label></div>
+    <div class="field"><span class="field-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span><input id="password" name="password" type="password" autocomplete="current-password" placeholder="Masukkan password" required><button class="password-toggle" id="password-toggle" type="button" aria-label="Tampilkan password" aria-pressed="false"><svg id="eye-show" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><svg id="eye-hide" class="is-hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="m3 3 18 18M10.6 6.1c.5-.1.9-.1 1.4-.1 6.5 0 10 6 10 6a17 17 0 0 1-3.4 3.8M6.3 6.3C3.5 8.2 2 12 2 12s3.5 6 10 6c1.7 0 3.2-.4 4.4-1.1"/></svg></button></div>
+    <div class="login-options"><span><span class="secure-dot"></span> Akses akun terlindungi</span><span> Lupa password? <b>Hubungi Admin</b></span></div>
+    <button class="submit-btn" type="submit">MASUK KE PORTAL <span aria-hidden="true">↗</span></button>
+    <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+   </form>
+   <div class="login-bottom"><span class="line-symbol">✦</span> Dibuat untuk mendukung pembelajaran yang terpantau, tertib, dan berkelanjutan.</div>
+  </div>
+  <div class="login-footer-note"><span class="small-orb"></span> SMANPA PRIMA <span class="separator">/</span> FUTURE READY SCHOOL</div>
+ </section>
+</main>
+<footer class="site-footer"><span>© <span id="year">2026</span> SMANPA PJJ REPORT</span><span class="footer-right">IT dan Publikasi <span class="footer-separator">|</span> Bidang Kurikulum &amp; Peningkatan Mutu</span></footer>
+</div><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script><script src="config.js"></script><script src="auth.js?v=4"></script><script src="script.js?v=4"></script>
+</body></html>

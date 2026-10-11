@@ -1,0 +1,15 @@
+# Data pribadi, hasil ekspor, kredensial, dan berkas lokal
+*.xls
+*.xlsx
+*.csv
+*.sql
+*.zip
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+Thumbs.db
+supabase/
+**/service-role*
+**/*password*
